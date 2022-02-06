@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8218d413debace64c9b4e05fc44398c5, type: 3}
+  m_Name: Boss Attack 2
+  m_EditorClassIdentifier: 
+  shootPrefab: {fileID: 7350606748825071413, guid: faa8e6156e15fbb46b60fbece6814494,
+    type: 3}
+  beamPrefab: {fileID: 4878643026433671523, guid: 52213a822d51fcf478bf6ea0f71f4ff7,
+    type: 3}
+  melee: {fileID: 455084201063491661, guid: 64bea6f3c585c974e94ace92544f183f, type: 3}
+  shooTimeInterval: 2

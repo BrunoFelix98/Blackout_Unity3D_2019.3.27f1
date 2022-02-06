@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 2ca84c26a1c08404ca17ccf1dbf89bf0
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.15
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BlackoutEndbossv3(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CINEMA_4D_Editor
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -1.9249089, y: 3.2496471, z: 6.597144}
+      rotation: {x: -0.09738744, y: -0.81795037, z: 0.06703345, w: 0.56300926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Light
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0.5895329, z: 6.6733427}
+      rotation: {x: 0.8299432, y: 0, z: -0, w: 0.557848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Symmetry_body_shapes
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Symmetry_body_shapes_2
+      parentName: Symmetry_body_shapes
+      position: {x: -0.065707475, y: -1.3753179, z: -0.53493744}
+      rotation: {x: 0.05148729, y: 0.22071378, z: 0.004643547, w: 0.9739676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_shapes
+      parentName: Symmetry_body_shapes_2
+      position: {x: -0.000039548682, y: 3.5887303, z: 0.3737696}
+      rotation: {x: -6.938894e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Symmetry_head_shapes
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Subdivision_Surface
+      parentName: Symmetry_head_shapes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_shapes
+      parentName: Subdivision_Surface
+      position: {x: 0.11162448, y: 3.1844869, z: 0.057660926}
+      rotation: {x: 0.025341606, y: 0.34730488, z: -0.065779254, w: 0.93509907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mask__arrow
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 3.2186906, z: 0.00028164207}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eyes
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 3.157248, z: -0.028278094}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eye_goggles
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 3.157248, z: -0.025699219}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Symmetry_Eye_mask
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: -0.003324738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_mask
+      parentName: Symmetry_Eye_mask
+      position: {x: -0, y: 3.2164485, z: 0.016554775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Symmetry_mask
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mask
+      parentName: Symmetry_mask
+      position: {x: -0, y: 3.2164485, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Symmetry_head
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: Symmetry_head
+      position: {x: -0, y: 3.2164485, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: nose
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0.00029535932, y: 3.0652218, z: 0.18995242}
+      rotation: {x: -0.34036428, y: -1.04393575e-16, z: -3.778803e-17, w: 0.94029367}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mask_mouth
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 3.2115853, z: 0.016266057}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: grate
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0.00029535932, y: 3.0174763, z: 0.14157294}
+      rotation: {x: -0.6674596, y: 0, z: -0, w: 0.744646}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Neck
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spikes_neck
+      parentName: Neck
+      position: {x: -0, y: -0.106624536, z: 0}
+      rotation: {x: -0.2570635, y: 0.23671553, z: -0.2367156, w: 0.90655935}
+      scale: {x: 99.99999, y: 99.99999, z: 99.999985}
+    - name: neck_bracer
+      parentName: Neck
+      position: {x: -0, y: 2.6887796, z: -0.04871757}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: neck_shaft
+      parentName: Neck
+      position: {x: -0, y: 3.2164485, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: straps
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 2.890075, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: panel_outline
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 3.2164485, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shoulder_plates
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 2.890075, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chest_plate
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0.000000049754316, y: 2.5339553, z: 0.22238253}
+      rotation: {x: -0.6713686, y: -8.228133e-17, z: -7.453696e-17, w: 0.7411236}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hands
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 2.890075, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: legs
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 1.9589794, z: 0.02024255}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Symmetry_hands
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bracelets
+      parentName: Symmetry_hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_8
+      parentName: bracelets
+      position: {x: -1.493474, y: 2.7492478, z: 0.08958391}
+      rotation: {x: 0.34785917, y: -0.00093253545, z: 0.0017879967, w: 0.93754464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_7
+      parentName: bracelets
+      position: {x: -1.4933379, y: 2.645537, z: 0.13800532}
+      rotation: {x: 0.70880693, y: 0, z: -0, w: 0.70540255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_6
+      parentName: bracelets
+      position: {x: -1.4933379, y: 2.5430057, z: 0.08990012}
+      rotation: {x: 0.93232125, y: 0, z: -0, w: 0.3616312}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_5
+      parentName: bracelets
+      position: {x: -1.4933735, y: 2.4998953, z: -0.009013021}
+      rotation: {x: 1, y: -0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_4
+      parentName: bracelets
+      position: {x: -1.4934695, y: 2.541963, z: -0.10872517}
+      rotation: {x: 0.93754464, y: -0.0017879967, z: -0.00093253545, w: -0.34785917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_3
+      parentName: bracelets
+      position: {x: -1.4933379, y: 2.6448047, z: -0.15340076}
+      rotation: {x: -0.70540255, y: 0, z: -0, w: 0.70880693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_2
+      parentName: bracelets
+      position: {x: -1.4933379, y: 2.747585, z: -0.10997879}
+      rotation: {x: -0.3616312, y: 0, z: -0, w: 0.93232125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike_1
+      parentName: bracelets
+      position: {x: -1.4933379, y: 2.7867072, z: -0.008940983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cone
+      parentName: bracelets
+      position: {x: -0, y: 2.890075, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Symmetry_body
+      parentName: BlackoutEndbossv3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: Symmetry_body
+      position: {x: -0, y: 1.9589794, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.15
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
